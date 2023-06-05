@@ -3,6 +3,7 @@ import React from 'react';
 import { DeleteContacts } from './DeleteContacts';
 
 export const ContactList = ({ contacts, onDelete }) => {
+  console.log(contacts);
   return (
     <div>
       <span>Contacts</span>

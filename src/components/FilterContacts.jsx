@@ -1,7 +1,7 @@
 import React from 'react';
 class FilterContacts extends React.Component {
   handleChange = event => {
-    this.props.onFilterChange(event.target.value);
+    this.props.onChange(event.target.value);
   };
 
   render() {
